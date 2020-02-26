@@ -1,6 +1,6 @@
 # Sql Formatter
 
-SQL格式化工具使用 [sql-formatter](https://github.com/zeroturnaround/sql-formatter) npm包.在这个包上进行了优化，以支持hive,后续会对hive进行大量的支持
+SQL格式化工具使用 [sql-formatter](https://github.com/zeroturnaround/sql-formatter) npm包.在这个包上进行了优化，bug修复，添加了hive支持,后续会对hive进行大量的支持
 
 ## 打包方法
  - 安装依赖 `npm install`
