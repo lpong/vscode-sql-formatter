@@ -1,6 +1,6 @@
 # Sql Formatter
 
-Format SQL files using the [sql-formatter-plus](https://github.com/kufii/sql-formatter-plus) npm package.
+SQL格式化工具使用 [sql-formatter-plus](https://github.com/kufii/sql-formatter-plus) npm package.在这个包上进行了优化，以支持hive
 
 ## Configuration
 
