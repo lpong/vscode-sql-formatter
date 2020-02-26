@@ -3,6 +3,7 @@
 SQL格式化工具使用 [sql-formatter-plus](https://github.com/kufii/sql-formatter-plus) npm包.在这个包上进行了优化，以支持hive,后续会对hive进行大量的支持
 
 ## 安装方法
+ - 安装依赖 `npm install`
  - 打包 `npm i vsce -g`
  - 打包成vsix文件 `vsce package`
  - 生成好的vsix文件不能直接拖入安装，只能从扩展的右上角选择`Install from VSIX`安装
