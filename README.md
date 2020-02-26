@@ -12,7 +12,7 @@ SQL格式化工具使用 [sql-formatter-plus](https://github.com/kufii/sql-forma
 ## 安装方法
  - 生成好的vsix文件不能直接拖入安装，只能从扩展的右上角选择`Install from VSIX`安装
  ![安装示例](/example-2.png)
- ![格式化效果图](/example-1.png)
+ ![格式化效果图](/example-1.jpg)
  
 
 ## 配置方法
