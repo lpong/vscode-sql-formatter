@@ -64,7 +64,7 @@
 	},
 	"dependencies": {
 		"@babel/polyfill": "^7.7.0",
-		"lodash": "^4.17.15"
+		"lodash": "^4.17.21"
 	},
 	"devDependencies": {
 		"eslint": "^6.6.0",
