@@ -29,7 +29,8 @@
     "tsql"
   ],
   "activationEvents": [
-    "onLanguage:sql"
+    "onLanguage:sql",
+    "onLanguage:oraclesql"
   ],
   "contributes": {
     "configuration": {

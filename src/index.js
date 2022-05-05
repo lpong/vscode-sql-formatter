@@ -31,3 +31,13 @@ module.exports.activate = () =>
       ),
     ],
   });
+
+module.exports.activate = () =>
+  vscode.languages.registerDocumentRangeFormattingEditProvider("oraclesql", {
+    provideDocumentRangeFormattingEdits: (document, range, options) => [
+      vscode.TextEdit.replace(
+        range,
+        format.format(document.getText(range), getConfig(options))
+      ),
+    ],
+  });
