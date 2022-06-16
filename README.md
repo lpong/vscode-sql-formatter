@@ -2,18 +2,21 @@
 
 Format sql files using the [sql-formatter](https://github.com/zeroturnaround/sql-formatter) npm package
 
+Forked from https://github.com/lea21st/vscode-sql-formatter to add support for oraclesql language, created by 
+Oracle's official extension.
+
 ## Install
 
-- Open VS Code and press F1 or Ctrl + Shift + P to open command palette, select Install Extension and type `lea21st.vscode-sql-formatter`. Or launch VS Code Quick Open (Ctrl + P), paste the following command, and press enter.
+- Open VS Code and press F1 or Ctrl + Shift + P to open command palette, select Install Extension and type `lucaslellis.vscode-sql-formatter`. Or launch VS Code Quick Open (Ctrl + P), paste the following command, and press enter.
 
-  `ext install lea21st.vscode-sql-formatter`
+  `ext install lucaslellis.vscode-sql-formatter`
 
 ## Options
 
 ```
    "sql-formatter.uppercase": false,
    "[sql]": {
-       "editor.defaultFormatter": "lea21st.vscode-sql-formatter"
+       "editor.defaultFormatter": "lucaslellis.vscode-sql-formatter"
    }
 ```
 
@@ -38,15 +41,15 @@ Format sql files using the [sql-formatter](https://github.com/zeroturnaround/sql
 
 **`sql-formatter.linesBetweenQueries`**: Number of linebreaks between queries. Defaults to 2.
 
-## 打包方法
+## Package method
 
-- 安装依赖 `npm install`
-- 打包 `npm i vsce -g`
-- 打包成 vsix 文件 `vsce package`
-- 当前目录会生成`.vxix文件`，打包成功
+- Install dependencies `npm install`
+- Package `npm i vsce -g`
+- Package into a vsix file `vsce package`
+- The `.vxix file` will be generated in the current directory and the package will be successful
 
-  > 或者直接下载`.vsix`文件，在 extensions 中安装
+  > Or download the `.vsix` file directly and install it in extensions
 
-- 生成好的 vsix 文件不能直接拖入安装，只能从扩展的右上角选择`Install from VSIX`安装
-  ![安装示例](/example-2.png)
-  ![格式化效果图](/example-1.jpg)
+- The generated vsix file cannot be directly dragged into the installation, you can only install it by selecting `Install from VSIX` from the top right corner of the extensions
+  ! [Installation example](/example-2.png)
+  ! [Formatting effect](/example-1.jpg)

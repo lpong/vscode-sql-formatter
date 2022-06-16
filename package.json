@@ -2,11 +2,11 @@
   "name": "vscode-sql-formatter",
   "displayName": "SQL Formatter",
   "description": "Format sql files using the sql-formatter npm package",
-  "version": "2.1.5",
-  "publisher": "lea21st",
+  "version": "2.1.6",
+  "publisher": "lucaslellis",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lea21st/vscode-sql-formatter.git"
+    "url": "https://github.com/lucaslellis/vscode-sql-formatter.git"
   },
   "engines": {
     "vscode": "^1.38.0"
