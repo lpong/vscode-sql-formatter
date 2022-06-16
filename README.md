@@ -7,16 +7,16 @@ Oracle's official extension.
 
 ## Install
 
-- Open VS Code and press F1 or Ctrl + Shift + P to open command palette, select Install Extension and type `lucaslellis.vscode-sql-formatter`. Or launch VS Code Quick Open (Ctrl + P), paste the following command, and press enter.
+- Open VS Code and press F1 or Ctrl + Shift + P to open command palette, select Install Extension and type `lucaslellis.vscode-sql-formatter-fork`. Or launch VS Code Quick Open (Ctrl + P), paste the following command, and press enter.
 
-  `ext install lucaslellis.vscode-sql-formatter`
+  `ext install lucaslellis.vscode-sql-formatter-fork`
 
 ## Options
 
 ```
    "sql-formatter.uppercase": false,
    "[sql]": {
-       "editor.defaultFormatter": "lucaslellis.vscode-sql-formatter"
+       "editor.defaultFormatter": "lucaslellis.vscode-sql-formatter-fork"
    }
 ```
 
